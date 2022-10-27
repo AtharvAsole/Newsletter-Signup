@@ -41,7 +41,7 @@ app.post("/", function(req, res){
 
   const options = {
     method:"POST",
-    auth:"atharv7:5b64dabed1596b219742bb0d2e36b952-us12"
+    auth:"<Enter API>"//enter a valid api here
   }
 
   const request = https.request(url, options, function(response){
@@ -73,10 +73,3 @@ app.listen(3000, function(){
   console.log("Server is up and Running at port 3000");
 });
 
-
-
-// api keys
-// 5b64dabed1596b219742bb0d2e36b952-us12
-
-//list id
-// ac4d18279a
